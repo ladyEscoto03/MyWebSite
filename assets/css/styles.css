@@ -179,6 +179,18 @@ section {
   padding: 15px;
   border: var(--border);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
 
+.WhatsApp:hover {
+  box-shadow: 0 5px 10px #075e54;
+  transform: translateX(var(--hover-movement));
+}
+.Linkedln:hover {
+  box-shadow: 0 5px 10px #0a66c2;
+  transform: translateX(var(--hover-movement));
+}
+.GitHub:hover {
+  box-shadow: 0 5px 10px #333333;
+  transform: translateX(var(--hover-movement));
 }
