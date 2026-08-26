@@ -27,15 +27,16 @@ nav {
 }
 
 .nav-list li:hover {
-  border: 1px solid #adeec5;
+  
   box-shadow:
-    0 0 14px rgba(173, 238, 197, 0.6),
-    0 0 28px rgba(173, 238, 197, 0.4),
-    0 0 42px rgba(173, 238, 197, 0.3),
-    0 0 60px rgba(173, 238, 197, 0.15);
-  background-color: rgba(173, 238, 197, 0.1);
+    0 0 14px rgba(29, 53, 87, 0.6),
+    0 0 28px rgba(29, 53, 87, 0.4),
+    0 0 42px rgba(29, 53, 87, 0.3),
+    0 0 60px rgba(29, 53, 87, 0.15);
+  background-color: rgba(29, 53, 87, 0.1);
   border-radius: 10px;
 }
+
 .nav-list li:hover a {
   color: black;
 }

@@ -6,5 +6,42 @@
 body {
   background-color: #bbb5ba;
 }
+section{
+  margin: 50px;
+}
+.presentation {
+  padding: 20px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.presentation img {
+  border-radius: 100px;
+  width: 300px;
+}
+.presentation-description {
+  width: 600px;
 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.presentation-description .contact {
+  width: fit-content;
+  padding: 10px;
+  background-color: #1d3557;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+.presentation-description .contact:hover {
+  box-shadow:
+    0 0 14px rgba(183, 40, 24, 0.6),
+    0 0 28px rgba(183, 40, 24, 0.4),
+    0 0 42px rgba(183, 40, 24, 0.3),
+    0 0 60px rgba(183, 40, 24, 0.15);
+
+  border-radius: 10px;
+}
