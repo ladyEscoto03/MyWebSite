@@ -40,7 +40,7 @@ section {
   border-radius: 10px;
   text-decoration: none;
   color: var(--text-color);
-   transition: var(--transition);
+  transition: var(--transition);
 }
 .presentation-description .contact:hover {
   transform: translateX(var(--hover-movement));
@@ -90,4 +90,21 @@ section {
   border-left-color: var(--accent-color);
 
   box-shadow: var(--shadow);
+}
+
+.recent-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.project {
+  border: 2px solid brown;
+  width: 400px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
