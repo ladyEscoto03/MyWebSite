@@ -10,19 +10,7 @@
 
   --text-color: white;
 
-  --primary-rgb: 29, 53, 87;
-  --accent-rgb: 183, 40, 24;
   --radius-md: 10px;
-
-  --primary-glow-shadow:
-    0 0 14px rgba(var(--accent-rgb), 0.6),
-    0 0 28px rgba(var(--accent-rgb), 0.4),
-    0 0 42px rgba(var(--accent-rgb), 0.3),
-    0 0 60px rgba(var(--accent-rgb), 0.15);
-
-  --accent-glow-shadow:
-    0 0 14px rgba(var(--primary-rgb), 0.6),
-    0 0 28px rgba(var(--primary-rgb), 0.4),
-    0 0 42px rgba(var(--primary-rgb), 0.3),
-    0 0 60px rgba(var(--primary-rgb), 0.15);
+  --shadow:
+    0 0 15px rgba(183, 40, 24, 0.35), 0 10px 35px rgba(29, 53, 87, 0.35);
 }

@@ -9,7 +9,6 @@ nav {
   height: 100%;
   list-style: none;
   margin-right: 30px;
-
   display: flex;
   justify-content: end;
   align-items: center;
@@ -27,7 +26,7 @@ nav {
 }
 
 .nav-list li:hover {
-  box-shadow: var(--accent-glow-shadow);
+  box-shadow:var(--shadow);
 
   border-radius: var(--radius-md);
 }
