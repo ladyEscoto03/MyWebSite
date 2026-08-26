@@ -3,7 +3,6 @@
   --primary-color: #b72818;
   --accent-color: #1d3557;
   --light-neutral-color: #bbb5ba;
-  --text-color: white;
 
   /* ===== FORMAS ===== */
   --radius-md: 10px;
@@ -24,4 +23,8 @@
   /* ===== INTERACCIÓN ===== */
   --hover-movement: 5px;
   --transition: 0.25s ease;
+
+  /*===== COLOR DE TEXTOS =====*/
+    --text-color: white;
+    --text-status: #211f21;
 }
