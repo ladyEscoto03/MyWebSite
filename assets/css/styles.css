@@ -20,6 +20,11 @@ section {
 .presentation img {
   border-radius: 100px;
   width: 300px;
+  transition: var(--transition);
+}
+.presentation img:hover {
+  transform: translateX(var(--hover-movement));
+  box-shadow: var(--shadow);
 }
 .presentation-description {
   width: 600px;
@@ -35,10 +40,11 @@ section {
   border-radius: 10px;
   text-decoration: none;
   color: var(--text-color);
+   transition: var(--transition);
 }
 .presentation-description .contact:hover {
+  transform: translateX(var(--hover-movement));
   box-shadow: var(--shadow);
-  border-radius: var(--radius-md);
 }
 
 .technologies {
