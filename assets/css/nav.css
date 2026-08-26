@@ -27,6 +27,4 @@ nav {
 
 .nav-list li:hover {
   box-shadow:var(--shadow);
-
-  border-radius: var(--radius-md);
 }
