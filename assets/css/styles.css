@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #bbb5ba;
+  background-color: var(--light-neutral-color);
 }
-section{
+section {
   margin: 50px;
 }
 .presentation {
@@ -31,17 +31,12 @@ section{
 .presentation-description .contact {
   width: fit-content;
   padding: 10px;
-  background-color: #1d3557;
+  background-color: var(--accent-color);
   border-radius: 10px;
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 .presentation-description .contact:hover {
-  box-shadow:
-    0 0 14px rgba(183, 40, 24, 0.6),
-    0 0 28px rgba(183, 40, 24, 0.4),
-    0 0 42px rgba(183, 40, 24, 0.3),
-    0 0 60px rgba(183, 40, 24, 0.15);
-
-  border-radius: 10px;
+  box-shadow: var(--accent-glow-shadow);
+  border-radius: var(--radius-md);
 }

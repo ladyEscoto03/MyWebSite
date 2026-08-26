@@ -1,10 +1,28 @@
 :root {
   /* Color principal de la marca (Rojo) */
-  --color-primario: #b72818;
+  --primary-color: #b72818;
 
   /* Color de acento o atención (Azul marino) */
-  --color-acento: #1d3557;
+  --accent-color: #1d3557;
 
   /* Color neutral de fondo o soporte (Gris claro) */
-  --color-neutral-claro: #bbb5ba;
+  --light-neutral-color: #bbb5ba;
+
+  --text-color: white;
+
+  --primary-rgb: 29, 53, 87;
+  --accent-rgb: 183, 40, 24;
+  --radius-md: 10px;
+
+  --primary-glow-shadow:
+    0 0 14px rgba(var(--primary-rgb), 0.6),
+    0 0 28px rgba(var(--primary-rgb), 0.4),
+    0 0 42px rgba(var(--primary-rgb), 0.3),
+    0 0 60px rgba(var(--primary-rgb), 0.15);
+
+  --accent-glow-shadow:
+    0 0 14px rgba(var(--accent-rgb), 0.6),
+    0 0 28px rgba(var(--accent-rgb), 0.4),
+    0 0 42px rgba(var(--accent-rgb), 0.3),
+    0 0 60px rgba(var(--accent-rgb), 0.15);
 }
