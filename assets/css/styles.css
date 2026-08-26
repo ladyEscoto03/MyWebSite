@@ -37,6 +37,31 @@ section {
   color: var(--text-color);
 }
 .presentation-description .contact:hover {
-  box-shadow: var(--accent-glow-shadow);
+  box-shadow: var(--primary-glow-shadow);
   border-radius: var(--radius-md);
+}
+
+.technologies {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+}
+.tech-category {
+  width: 250px;
+  text-wrap: nowrap;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 5px;
+  box-shadow: var(--accent-glow-shadow);
+}
+.technologies-list {
+  display: flex;
+  flex-direction: column;
+
+}
+.technologies-list li {
+  list-style: none;
 }

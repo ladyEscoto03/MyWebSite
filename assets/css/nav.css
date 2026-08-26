@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-list li:hover {
-  box-shadow: var(--primary-glow-shadow);
-  background-color: rgba(var(--primary-rgb), 0.1);
+  box-shadow: var(--accent-glow-shadow);
+
   border-radius: var(--radius-md);
 }

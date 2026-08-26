@@ -15,14 +15,14 @@
   --radius-md: 10px;
 
   --primary-glow-shadow:
-    0 0 14px rgba(var(--primary-rgb), 0.6),
-    0 0 28px rgba(var(--primary-rgb), 0.4),
-    0 0 42px rgba(var(--primary-rgb), 0.3),
-    0 0 60px rgba(var(--primary-rgb), 0.15);
-
-  --accent-glow-shadow:
     0 0 14px rgba(var(--accent-rgb), 0.6),
     0 0 28px rgba(var(--accent-rgb), 0.4),
     0 0 42px rgba(var(--accent-rgb), 0.3),
     0 0 60px rgba(var(--accent-rgb), 0.15);
+
+  --accent-glow-shadow:
+    0 0 14px rgba(var(--primary-rgb), 0.6),
+    0 0 28px rgba(var(--primary-rgb), 0.4),
+    0 0 42px rgba(var(--primary-rgb), 0.3),
+    0 0 60px rgba(var(--primary-rgb), 0.15);
 }
