@@ -1,0 +1,10 @@
+:root {
+  /* Color principal de la marca (Rojo) */
+  --color-primario: #b72818;
+
+  /* Color de acento o atención (Azul marino) */
+  --color-acento: #1d3557;
+
+  /* Color neutral de fondo o soporte (Gris claro) */
+  --color-neutral-claro: #bbb5ba;
+}
