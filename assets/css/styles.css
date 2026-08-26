@@ -163,8 +163,22 @@ section {
   text-align: center;
 }
 
+.social-medias {
+  margin-top: 10px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-.social-medias{
-  border: 5px solid red;
+.social-medias li {
+  list-style: none;
+
+  padding: 15px;
+  border: var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+
 }
