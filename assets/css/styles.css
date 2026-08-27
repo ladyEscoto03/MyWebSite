@@ -7,11 +7,11 @@ body {
   background-color: var(--light-neutral-color);
 }
 section {
-  margin: 20px;
+  margin: 10px;
   height: 100vh;
 }
 .presentation {
-  width: 80%;
+  width: 100%;
   height: 80%;
   margin: auto;
   display: flex;
@@ -38,10 +38,10 @@ section h2 {
 }
 .presentation-description {
   width: 600px;
-
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: justify;
 }
 .presentation-description .contact {
   width: fit-content;
@@ -58,7 +58,7 @@ section h2 {
 }
 
 .technologies {
-   width: 80%;
+  width: 80%;
   height: 80%;
   margin: auto;
   display: grid;
@@ -106,7 +106,7 @@ section h2 {
 }
 
 .recent-projects {
-   width: 80%;
+  width: 80%;
   height: 80%;
   margin: auto;
   display: flex;
@@ -179,7 +179,7 @@ section h2 {
 }
 
 .social-medias {
-   width: 80%;
+  width: 80%;
   height: 80%;
   margin: auto;
 
@@ -215,4 +215,31 @@ section h2 {
 .GitHub:hover {
   box-shadow: 0 5px 10px #333333;
   transform: translateX(var(--hover-movement));
+}
+
+@media (max-width: 950px) {
+  section {
+    height: 100%;
+  }
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+
+    border: 5px solid brown;
+  }
+
+  .presentation img {
+    border-radius: 100px;
+    width: 50%;
+  }
+  .presentation-description {
+    width: 100%;
+    padding: 10px;
+  }
+  .presentation-description .contact {
+    margin: auto;
+  }
 }
