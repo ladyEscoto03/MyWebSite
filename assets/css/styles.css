@@ -8,12 +8,13 @@ body {
 }
 section {
   margin: 10px;
-  height: 100vh;
+  min-height: 100vh;
 }
 .presentation {
-  width: 100%;
-  height: 80%;
-  margin: auto;
+
+  min-height: 80vh;
+
+  border: 6px solid peru;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,8 +59,8 @@ section h2 {
 }
 
 .technologies {
-  width: 80%;
-  height: 80%;
+   min-height: 80vh;
+
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -106,8 +107,8 @@ section h2 {
 }
 
 .recent-projects {
-  width: 80%;
-  height: 80%;
+   min-height: 80vh;
+
   margin: auto;
   display: flex;
   justify-content: center;
@@ -179,8 +180,8 @@ section h2 {
 }
 
 .social-medias {
-  width: 80%;
-  height: 80%;
+   min-height: 80vh;
+
   margin: auto;
 
   display: flex;
@@ -218,22 +219,21 @@ section h2 {
 }
 
 @media (max-width: 950px) {
-  section {
-    height: 100%;
-  }
+  /*
+  sección de sobre mi
+  */
+
   .presentation {
     display: flex;
     flex-direction: column;
     gap: 5px;
     width: 100%;
     height: 100%;
-
-    border: 5px solid brown;
   }
 
   .presentation img {
     border-radius: 100px;
-    width: 50%;
+    width: 35%;
   }
   .presentation-description {
     width: 100%;
@@ -241,5 +241,43 @@ section h2 {
   }
   .presentation-description .contact {
     margin: auto;
+  }
+
+  /*
+  sección de tecnologías
+  */
+
+  .technologies {
+    border: 5px solid brown;
+  }
+
+  .tech-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-md);
+    border: var(--border);
+
+    padding-top: 10px;
+  }
+
+  .technologies-list {
+    flex: 1;
+    width: 90%;
+    margin: 10px;
+    padding: 8px;
+  }
+
+  .technologies-list li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+
+    border: var(--border);
+    border-left: var(--border-left);
+    border-radius: var(--radius-md);
+    transition: var(--transition);
   }
 }
